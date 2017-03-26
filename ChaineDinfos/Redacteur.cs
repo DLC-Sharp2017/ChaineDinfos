@@ -11,6 +11,18 @@ namespace ChaineDinfos
     /// </summary>
     class Redacteur : Journaliste
     {
+        public Journal Journal
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
+
         /// <summary>
         /// Rédiger un reportage
         /// </summary>
@@ -23,6 +35,11 @@ namespace ChaineDinfos
             //A définir et retourner reportage
             Reportage reportage = new Reportage();
             return reportage;
+        }
+
+        public string RealiserConducteur()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

@@ -20,7 +20,7 @@ namespace ChaineDinfos
         /// <param name="prenom"></param>
         public Envoye(string prenom) : base(prenom)
         {
-            // A définir
+            Prenom = prenom;
         }
 
         /// <summary>
@@ -29,7 +29,7 @@ namespace ChaineDinfos
         /// <param name="mission"></param>
         public Envoye (Reportage mission)
         {
-            // A définir
+            Reportage Mission = mission;
         }
 
         /// <summary>

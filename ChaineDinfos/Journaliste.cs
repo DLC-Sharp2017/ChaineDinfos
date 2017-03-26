@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace ChaineDinfos
 {
     /// <summary>
     /// Classe abstraite permettant de définir la fonction générique du journaliste
-    /// </summary>
+    /// </summary>C:\Users\RIMBAUD\Source\Repos\ChaineDinfos\ChaineDinfos\Journaliste.cs
     abstract class Journaliste
     {
         /* ---------------------------------------
@@ -23,7 +22,7 @@ namespace ChaineDinfos
         /// Titre de la chaine
         /// </summary>
         protected const string chaineTV = "RVNews";
-        
+                     
         /* ---------------------------------------
          *            ACCESSEURS                   |
          *---------------------------------------- */
@@ -44,6 +43,18 @@ namespace ChaineDinfos
         /// </example>
         /// </summary>
         public string Theme { get; set; }
+
+        internal Reportage Reportage
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
 
         /* ---------------------------------------
         *            CONSTRUCTEURS                 |
